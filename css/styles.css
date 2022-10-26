@@ -170,6 +170,19 @@ div ul li{
     width: 100%;
 }
 
+#class_img_portada{
+    display: grid;
+   justify-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+    }
+
+
+}
+
 
 
 
