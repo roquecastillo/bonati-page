@@ -13,19 +13,19 @@
 
 
 main{
-    height: 1250px;
+    height: 100%;
      background-image: linear-gradient(black 50%, rgb(18, 18, 18),rgb(90, 90, 90));
-    /* background-color: black; */
+    width: 100%;
 }
 
 nav{
     background-color: black;
-    display: flex;
-    height: 140px;
+    
+    height: 130px;
     width: 100%;
 }
 
-header{
+.div_banner{
     background-color: black;
 }
 
@@ -62,13 +62,7 @@ footer{
     height: 30px;
 }
 
-section{
-    height: 1200px;
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 article{
     
@@ -135,11 +129,52 @@ div ul li{
     list-style-type: none;
 }
 
-section{
+.section_class_content{
     height: 1200px;
     display: flex;
     align-items: flex-start;
+    justify-content: space-evenly;
 }
+
+.div_menu{
+    background-color: black;
+    display: flex;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+}
+
+#div_galeria{
+    
+    display: grid;
+    height: 1600px;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-areas: "a1 a2 a3"
+                         "a4 a5 a6"
+                         "a7 a8 a9";
+    row-gap: 7px;
+    column-gap: 7px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.class_img_galeria{
+    height: 90%;
+    width: 90%;
+}
+
+.class_img_galeria img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 
